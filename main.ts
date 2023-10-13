@@ -1,7 +1,7 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
- * Created on: Sep 2020
+ * Created by:Cedric
+ * Created on:Oct 2023
  * This program uses the RobotBit's Neopixels
 */
 
@@ -21,7 +21,7 @@ basic.showIcon(IconNames.Happy)
 input.onButtonPressed(Button.A, function () {
   basic.showIcon(IconNames.Happy)
 
-  //red 
+ //red 
   neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
   neopixelStrip.show()
   pause(1000)
@@ -29,20 +29,20 @@ input.onButtonPressed(Button.A, function () {
   neopixelStrip.show()
   pause(1000)
 
-//yellow
+  //yellow
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
   neopixelStrip.show()
   pause(1000)
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.show()
 
-//Green
+  //Green
   neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Green))
   neopixelStrip.show()
   pause(1000)
   neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.show()
   pause(1000)
-  
+
   basic.showIcon(IconNames.Happy)
 })
