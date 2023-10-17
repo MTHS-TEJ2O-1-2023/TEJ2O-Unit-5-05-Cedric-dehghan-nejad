@@ -12,7 +12,6 @@ np = neopixel.NeoPixel(pin16, 4)
 
 while True:
 if button_a.is_pressed():
-
 for pixel_id in range(0, len(np)):
     red = randint(0, 255)
 Green = randint(0, 255)
