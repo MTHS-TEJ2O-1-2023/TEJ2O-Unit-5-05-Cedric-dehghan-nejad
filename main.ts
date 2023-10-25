@@ -21,6 +21,7 @@ basic.showIcon(IconNames.Happy)
 input.onButtonPressed(Button.A, function () {
   basic.showIcon(IconNames.Happy)
 
+  // Red
   neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
   neopixelStrip.show()
   pause(1000)
@@ -28,12 +29,14 @@ input.onButtonPressed(Button.A, function () {
   neopixelStrip.show()
   pause(1000)
 
+  //Yellow
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
   neopixelStrip.show()
   pause(1000)
   neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
   neopixelStrip.show()
 
+  //Green
   neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Green))
   neopixelStrip.show()
   pause(1000)
