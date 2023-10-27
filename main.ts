@@ -1,8 +1,8 @@
 /* Copyright (c) 2020 MTHS All rights reserved
- *
- * Created by:Cedric
- * Created on:Oct 2023
- * This program uses the RobotBit's Neopixels
+*
+* Created by:Cedric
+* Created on:Oct 2023
+* This program uses the RobotBit's Neopixels
 */
 
 // variables
@@ -19,30 +19,30 @@ neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Happy)
+  basic.showIcon(IconNames.Happy)
 
-    // Red
-    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
-    neopixelStrip.show()
-    pause(1000)
-    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
-    neopixelStrip.show()
-    pause(1000)
+// Red
+  neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+  neopixelStrip.show()
+  pause(1000)
+  neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
+  neopixelStrip.show()
+  pause(1000)
 
-    //Yellow
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
-    neopixelStrip.show()
-    pause(1000)
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
-    neopixelStrip.show()
+// Yellow
+  neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Yellow))
+  neopixelStrip.show()
+  pause(1000)
+  neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
+  neopixelStrip.show()
 
-    //Green
-    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Green))
-    neopixelStrip.show()
-    pause(1000)
-    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
-    neopixelStrip.show()
-    pause(1000)
+// Green
+  neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Green))
+  neopixelStrip.show()
+  pause(1000)
+  neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
+  neopixelStrip.show()
+  pause(1000)
 
-    basic.showIcon(IconNames.Happy)
+  basic.showIcon(IconNames.Happy)
 })
