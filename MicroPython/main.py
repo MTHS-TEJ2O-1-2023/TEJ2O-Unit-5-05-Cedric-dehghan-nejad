@@ -6,6 +6,9 @@ This module is a Micro:bit MicroPython program
 
 from microbit import *
 
+import neopixel
+
+
 np = np = neopixel.NeoPixel(pin16, 5)
 
 display.clear()
