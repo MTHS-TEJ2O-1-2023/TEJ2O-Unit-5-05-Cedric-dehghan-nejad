@@ -1,11 +1,10 @@
 /* Copyright (c) 2020 MTHS All rights reserved
-*
-* Created by:Cedric
-* Created on:Oct 2023
-* This program uses the RobotBit's Neopixels
+ *
+ * Created by: Mr. Coxall
+ * Created on: Sep 2020
+ * This program ...
 */
 
-// variables
 let neopixelStrip: neopixel.Strip = null
 
 // cleanup
@@ -18,7 +17,7 @@ neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
 
-input.onButtonPressed(Button.A, function () {
+  input.onButtonPressed(Button.A, function () {
   basic.showIcon(IconNames.Happy)
 
 // Red
